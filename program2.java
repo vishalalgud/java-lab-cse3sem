@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class vishal {
+public class program2 {
 	public static void main(String []args) {
 		StringBuffer s=new StringBuffer();
 		String str2;
