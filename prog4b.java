@@ -1,3 +1,4 @@
+
 class Language {
   public void displayInfo() {
 System.out.println("Common English Language");
@@ -11,7 +12,7 @@ System.out.println("Java Programming Language");
   }
 }
 
-public class MainMain {
+public class prog4b {
   public static void main(String[] args) {
     // create an object of Java class
     Java j1 = new Java();
