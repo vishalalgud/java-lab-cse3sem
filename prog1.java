@@ -1,6 +1,7 @@
+package vishal;
 import java.util.Scanner;
 
-public class student {
+public class prog1 {
 
 	public String vtuno;
 	public String fullname;
@@ -8,7 +9,7 @@ public class student {
 	public String branchcode;
 	public String address;
 	
-	public student()
+	public prog1()
 	{
 		Scanner scanner=new Scanner(System.in);
 		System.out.print("vtuno:");
@@ -34,7 +35,7 @@ public class student {
 	}
 	public static void main (String[] args)
 	{
-		 student std=new student ();
+		 prog1 std=new prog1 ();
 		 std.show();
 	}
 	}
