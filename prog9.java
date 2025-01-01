@@ -10,7 +10,7 @@ this.number=number;
 public void run()
 {
 int value=0;
-for(inti=0;i<5;i++)
+for(int i=0;i<5;i++)
 {
 value=sync.get();
 System.out.println("Consumer#" +this.number+ "got:" +value);
@@ -30,7 +30,7 @@ sync=c;
 this.number=number;
 }
 public void run(){
-for(inti=0;i<5;i++){
+for(int i=0;i<5;i++){
 sync.put(i);
 System.out.println("Produces" +this.number+ "put:" +i);
 try{
